@@ -46,7 +46,7 @@ $(document).ready(function() {
 
   function handleCardClick(card) {
     if (card.classList.contains('flipped')) {
-      return;
+      // return;
     }
 
     flipCard(card);
