@@ -18,7 +18,7 @@
       if (this.checkMatch(card1, card2)) {
         this.matches ++;
         return true
-      } else{
+       } else{
         return false
       }
     }
