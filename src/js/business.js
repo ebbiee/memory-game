@@ -17,7 +17,6 @@
     checkForMatch(card1, card2) {
       if (this.checkMatch(card1, card2)) {
         this.matches ++;
-        console.log('Match found!');
         return true
       } else{
         return false
